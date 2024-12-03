@@ -1,0 +1,8 @@
+<div class="bg-img">
+  <div *ngIf="showLogin" class="form-container">
+    <app-login (toggleForm)="toggleForm()"></app-login>
+  </div>
+  <div *ngIf="!showLogin" class="form-container">
+    <app-signup (toggleForm)="toggleForm()"></app-signup>
+  </div>
+</div>

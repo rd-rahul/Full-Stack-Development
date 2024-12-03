@@ -1,0 +1,12 @@
+.bg-img {
+    width: 100vw;
+    height: 91.25vh; /* Adjust height if needed */
+    background-image: url('./image4.png');
+    background-size: auto; /* Let the width scale naturally */
+    background-position: center center; /* Horizontally centered, vertically aligned to the top */
+    background-repeat: no-repeat; /* Prevent tiling of the image */
+    display: flex; /* Use flexbox for vertical alignment */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    overflow: hidden; /* Prevent any overflow */
+}
